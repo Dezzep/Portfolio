@@ -19,7 +19,6 @@ module.exports = {
         'admin-dashboard': "url('/src/images/admin-dashboard.png')",
         'todo-img': "url('/src/images/todo.png')",
         'weather-img': "url('/src/images/weather.png')",
-        'sing-up-img': "url('/src/images/sign_up.png')",
         'library-img': "url('/src/images/library.png')",
 
         

@@ -8,9 +8,10 @@ function App() {
   return (
     <div className='text-white font-poppins pb-12'>
     <Header></Header>
-    <NavBarSmall/>
+    
     <Hero></Hero>
     <Projects></Projects>
+    <NavBarSmall/>
     </div>
  
     )
