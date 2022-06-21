@@ -4,36 +4,44 @@ export default function Projects(props) {
   return (
     <div className='bg-black'>
     <h2 className='text-5xl font-bold md:text-6xl lg:text-7xl text-center py-16 mt-64 mb-16'>My Projects</h2>
-    <div className='container grid  sm:grid-cols-1 md:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
+    <div className='container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
       
-      <div>
-        <h2 className='text-xl text-center mb-6'>ToDo List</h2>
-        <div className='block w-72 h-48 mx-auto bg-todo-img bg-contain bg-no-repeat'></div>
-        <p className='mx-auto text-center w-72'>Bleep a blick.. and a black block blicks tick tock sweet flick flocks</p>
-        <div>
-          <button>Source Code 
-          </button> Live Preview
-        </div>
-      </div>
+     
       
-      <div>
-        <div className='block w-72 h-48 mx-auto bg-admin-dashboard bg-contain bg-no-repeat'></div>
-      </div>
+      <Card
+        title='Todo List'
+        image='todo.png'
+        alt='a todo application website'
+        description="Create new todo's, create new projects to hold your todo's, highlight your todo's by urgency,
+        delete your todo's and add and edit notes for each individual to do."
+        source='https://github.com/Dezzep/todo-list'
+        preview='https://dezzep.github.io/todo-list/'
+      ></Card>
       
-      <div>
-        <div className='block w-72 h-48 mx-auto bg-weather-img bg-contain bg-no-repeat'></div>
-      </div>
-      
-      {/* <div>
-        <div className='block w-72 h-48 mx-auto bg-library-img bg-contain bg-no-repeat'></div>
-      </div> */}
-     <Card 
-     title='taco' 
-     image='admin-dashboard.png' 
-     alt='project of a mock admin dashboard' 
-     description='A design of an admin dashboard, created using:'
-     source='https://github.com/Dezzep/Admin-Dashboard' 
-     preview='https://dezzep.github.io/Admin-Dashboard/'></Card>
+      <Card
+        title='Weather App'
+        image='weather.png'
+        alt='weather application website'
+        description='Uses a weather api to fetch data and'
+        source='https://github.com/Dezzep/weather-app'
+        preview='https://dezzep.github.io/weather-app/'
+      ></Card>
+      <Card 
+        title='Admin Dashboard' 
+        image='admin-dashboard.png' 
+        alt='project of a mock admin dashboard' 
+        description='A design of an admin dashboard, created using:'
+        source='https://github.com/Dezzep/Admin-Dashboard' 
+        preview='https://dezzep.github.io/Admin-Dashboard/'></Card>
+
+      <Card
+      title='Book Tracker'
+      image='library.png'
+      alt="A library tracker web application to keep track of what books you have or haven't read"
+      description="Keep track of the books you have or haven't read"
+      source='https://github.com/Dezzep/library'
+      preview='https://dezzep.github.io/library/'
+      ></Card>
     </div>
    
     </div>
