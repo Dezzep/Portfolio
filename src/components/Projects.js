@@ -2,8 +2,8 @@ import '../App.css';
 import Card from './ProjectCards';
 export default function Projects(props) {
   return (
-    <div className='bg-black'>
-    <h2 className='text-5xl font-bold md:text-6xl lg:text-7xl text-center py-16 mt-64 mb-16'>My Projects</h2>
+    <div id='work' className='bg-black md:mt-64 pt-12'>
+    <h2  className='mt-6 text-5xl font-bold md:text-6xl lg:text-7xl text-center md:py-24  mb-16 bg-theme/[0.05]'>My Projects</h2>
     <div className='container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
       
      
