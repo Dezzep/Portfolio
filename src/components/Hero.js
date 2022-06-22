@@ -2,7 +2,7 @@ import '../App.css';
 export default function Hero(props) { 
   return (
     <div id='home'className='h-screen container mt-16 lg:flex justify-between items-center mx-auto px-8 md:px-24 lg:px-16 lg:px-24 w-full'>
-      <div className='flex flex-wrap lg:ml-20 justify-center lg:justify-start max-w-xl mt-0 md:my-36'>
+      <div className='flex flex-wrap lg:ml-20 justify-center lg:justify-start max-w-xl mt-0 md:my-24 lg:my-36'>
         <h1 className='text-5xl font-bold md:text-5xl lg:text-6xl xl:text-7xl text-center lg:text-left'>Creating <br/> A Better Tomorrow</h1>
         <div className='w-full flex justify-center lg:justify-start'>
           <button className='px-6 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 hover:scale-105' onClick={(e) => {e.preventDefault(); window.location.href='#work'}}>
@@ -15,7 +15,7 @@ export default function Hero(props) {
           
       </div>
       <div className='w-full flex justify-center md:justify-start lg:ml-16 sm:space-y-4'>
-        <img src={require('../images/me.jpeg')} alt ='Picture Of Jacob Handelman' className='p-3  mt-8 m:mt-0'></img>
+        <img src={require('../images/me2.jpeg')} alt ="A person called Jacob Handelman wearing a red flannel with a pink Levi's shirt" className='p-3  mt-8 m:mt-0'></img>
       </div>
     </div>
   )
