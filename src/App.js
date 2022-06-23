@@ -3,6 +3,7 @@ import Header from './components/Header';
 import NavBarSmall from './components/NavBarSmall';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import About from './components/About';
 document.body.style.backgroundColor = "#17171F";
 function App() {
   return (
@@ -11,10 +12,14 @@ function App() {
     
     <Hero></Hero>
     <Projects></Projects>
+    
+    <About description=
+    "I'm a self taught web developer who strives for excellence through determination and persistence. If I'm not coding I'm probably reading or making a coffee. Although I get fulfillment from things such as snowboarding or biking, nothing really compares to the satisfaction I get from solving complex problems."></About>
     <NavBarSmall/>
     </div>
- 
+  
     )
 }
+
 
 export default App;
