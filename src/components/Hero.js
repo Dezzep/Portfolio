@@ -1,9 +1,10 @@
 import '../App.css';
+
 export default function Hero(props) { 
   return (
     <div id='home'className='h-screen container mt-16 lg:flex justify-between items-center mx-auto px-8 md:px-24 lg:px-16 lg:px-24 w-full'>
       <div className='flex flex-wrap lg:ml-20 justify-center lg:justify-start max-w-xl mt-0 md:my-24 lg:my-36'>
-        <h1 className='text-5xl font-bold md:text-5xl lg:text-6xl xl:text-7xl text-center lg:text-left'>Creating <br/> A Better Tomorrow</h1>
+        <h1 className='text-6xl font-bold  lg:text-6xl xl:text-7xl text-center lg:text-left'>I'm <span className='inline-block text-pop duration-200 ease-in-out hover:cursor-default'><span className='duration-100 ease-in-out hover:-translate-y-3 inline-block hover:text-blue-500 hover:scale-110'>J</span><span className='duration-100 ease-in hover:-translate-y-3 inline-block hover:text-blue-600'>a</span><span className='inline-block duration-100 ease-in-out hover:-translate-y-3 hover:text-blue-700 hover:scale-110'>c</span><span className='hover:text-blue-800 duration-100 ease-in-out hover:-translate-y-3 inline-block'>o</span><span className='duration-100 ease-in-out hover:-translate-y-3 inline-block hover:text-blue-900 hover:scale-110'>b</span>,</span> <br/> Web Developer</h1>
         <div className='w-full flex justify-center lg:justify-start'>
           <button className='px-6 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 hover:scale-105' onClick={(e) => {e.preventDefault(); window.location.href='#work'}}>
             <svg xmlns="http://www.w3.org/2000/svg" className='h-12 w-12 fill-current mr-2 text-blue-300'>
@@ -14,8 +15,8 @@ export default function Hero(props) {
           </div>
           
       </div>
-      <div className='w-full flex justify-center md:justify-start lg:ml-16 sm:space-y-4'>
-        <img src={require('../images/me2.jpeg')} alt ="A person called Jacob Handelman wearing a red flannel with a pink Levi's shirt" className='p-3  mt-8 m:mt-0'></img>
+      <div className='w-full xs:w-3/4 lg:w-full 2xl:w-1/2 flex justify-center md:justify-start lg:ml-16 sm:space-y-4 lg:mx-0 mx-auto'>
+        <img className='lg:p-16  mt-8 m:mt-0' src={require('../images/me2.jpeg')} alt ="A person called Jacob Handelman wearing a red flannel with a pink Levi's shirt"></img>
       </div>
     </div>
   )
