@@ -12,7 +12,7 @@ export default function Projects(props) {
     <div className='container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
       <Card
         title='Todo List'
-        image='/todo2.png'
+        image='/todo.png'
         alt='a todo application website'
         description="Create new projects. Add Todo's and highlight them by urgency. Add notes for each task, add due dates for each task. Delete your tasks and edit your notes. Your Todo list saves locally to your machine."
         source='https://github.com/Dezzep/todo-list'
