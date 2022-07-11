@@ -12,7 +12,7 @@ export default function Projects(props) {
     <div className='container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
       <Card
         title='Todo List'
-        image='todo2.png'
+        image='/todo2.png'
         alt='a todo application website'
         description="Create new projects. Add Todo's and highlight them by urgency. Add notes for each task, add due dates for each task. Delete your tasks and edit your notes. Your Todo list saves locally to your machine."
         source='https://github.com/Dezzep/todo-list'
@@ -24,7 +24,7 @@ export default function Projects(props) {
       ></Card>
       <Card
         title='Weather App'
-        image='weather.png'
+        image='/weather.png'
         alt='weather application website'
         description='Uses a weather api to fetch data and displays the information obtained. Uses Async/Await patterns. Converts temperatures, averages out received data to determine the five day forecast.'
         source='https://github.com/Dezzep/weather-app'
@@ -36,7 +36,7 @@ export default function Projects(props) {
       ></Card>
       <Card 
         title='Admin Dashboard' 
-        image='admin-dashboard.png' 
+        image='/admin-dashboard.png' 
         alt='project of a mock admin dashboard' 
         description='A mock design of an admin dashboard. Primarily built using CSS grid. I decided to be creative with the text content to amuse visitors.'
         source='https://github.com/Dezzep/Admin-Dashboard' 
@@ -47,7 +47,7 @@ export default function Projects(props) {
         </Card>
       <Card
       title='Book Tracker'
-      image='library.png'
+      image='/library.png'
       alt="A library tracker web application to keep track of what books you have or haven't read"
       description="Keep track of the books you have or haven't read, add author names and page count. Delete books from your library. Change your book status from finished reading to not read yet."
       source='https://github.com/Dezzep/library'
