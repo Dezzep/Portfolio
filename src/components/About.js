@@ -1,8 +1,8 @@
 import '../App.css';
 export default function About(props) {
   return (
-    <div id='about' className='p-16 container mt-56 lg:flex-col justify-between items-center mx-auto px-8 md:px-24 lg:px-24 w-full bg-black pb-56'>
-      <h2 className='mt-6 text-3xl font-bold md:text-6xl lg:text-5xl text-center mb-12'> About Me </h2>
+    <div id='about' className='p-16 container sm:mt-56 lg:flex-col justify-between items-center mx-auto px-8 md:px-24 lg:px-24 w-full bg-black pb-56'>
+      <h2 className='mt-6 text-3xl font-bold md:text-6xl lg:text-5xl text-center mb-12 underline decoration-pop'> About Me </h2>
       <div className='mx-auto w-2/4'>{props.description}</div>
       <h2 className='text-center mt-12 font-semibold text-xl'>Some stuff I do for fun</h2>
       <div className='flex card-list'>
@@ -32,7 +32,7 @@ export default function About(props) {
           </article>
           <article className='card'>
           <h3 className='text-pop  mt-2 mb-4 p-1 text-center font-semibold'>Camping</h3>
-          <p className='ml-2'>Sometimes I bike to my destination, carrying my tent and equipment in saddlebags. Sometimes I canoe, carrying my gear in drybags. Usually I drive. <br/><br/><span className='bg-pop px-1'>Fun fact</span> <br/><span>My longest camping trip was a 12 day canoe trip!</span></p>
+          <p className='ml-2'>Sometimes I bike to my destination, carrying my tent and equipment in saddlebags. Sometimes I canoe, carrying my gear in drybags. <br/><br/><span className='bg-pop px-1'>Fun fact</span> <br/><span>My longest camping trip was a 12 day canoe trip!</span></p>
           </article>
     </div>
     </div>

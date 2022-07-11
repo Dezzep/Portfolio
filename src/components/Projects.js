@@ -8,7 +8,7 @@ export default function Projects(props) {
   const css = <div className='flex-col'><svg className='ease-in duration-100 hover:scale-110 block mx-auto mb-2' xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"/><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"/></svg><p>CSS3</p></div>
   return (
     <div id='work' className='bg-black md:mt-64 pt-12 pb-16'>
-    <h2  className='mt-6 text-5xl font-bold md:text-6xl lg:text-7xl text-center md:py-24  mb-16'>My Projects</h2>
+    <h2  className='mt-24 sm:mt-6 text-5xl font-bold md:text-6xl lg:text-7xl text-center md:py-24  mb-16 underline decoration-pop'>My Projects</h2>
     <div className='container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
       <Card
         title='Todo List'
