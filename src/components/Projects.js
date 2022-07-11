@@ -10,9 +10,6 @@ export default function Projects(props) {
     <div id='work' className='bg-black md:mt-64 pt-12 pb-16'>
     <h2  className='mt-6 text-5xl font-bold md:text-6xl lg:text-7xl text-center md:py-24  mb-16'>My Projects</h2>
     <div className='container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6'>
-      
-     
-      
       <Card
         title='Todo List'
         image='todo2.png'
@@ -25,7 +22,6 @@ export default function Projects(props) {
         tools3={html5}
         tools4={webpack}
       ></Card>
-      
       <Card
         title='Weather App'
         image='weather.png'
@@ -37,7 +33,6 @@ export default function Projects(props) {
         tools2={sass}
         tools3={html5}
         tools4={webpack}
-
       ></Card>
       <Card 
         title='Admin Dashboard' 
@@ -49,10 +44,7 @@ export default function Projects(props) {
         tools1={sass}
         tools2={html5}
         >
-        
         </Card>
-        
-
       <Card
       title='Book Tracker'
       image='library.png'
@@ -65,7 +57,7 @@ export default function Projects(props) {
       tools3={html5}
       ></Card>
     </div>
-   
+      
     </div>
 
   ); 
