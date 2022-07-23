@@ -1,8 +1,8 @@
 import '../App.css';
 export default function About(props) {
   return (
-    <div id='about' className='p-16 container sm:mt-56 lg:flex-col justify-between items-center mx-auto px-8 md:px-24 lg:px-24 w-full bg-black pb-56'>
-      <h2 className='mt-6 text-3xl font-bold md:text-6xl lg:text-5xl text-center mb-12 underline decoration-pop'> About Me </h2>
+    <div id='about' className='text-slate-200 p-16 container sm:mt-56 lg:flex-col justify-between items-center mx-auto px-8 md:px-24 lg:px-24 w-full bg-black pb-56'>
+      <h2 className=' mt-6 text-3xl font-bold md:text-6xl lg:text-5xl text-center mb-12 underline decoration-pop'> About Me </h2>
       <div className='mx-auto w-3/4 md:w-2/4'>{props.description}</div>
       <h2 className='text-center mt-12 font-semibold text-xl'>Some stuff I do for fun</h2>
       <div className='flex card-list'>

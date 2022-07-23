@@ -1,7 +1,7 @@
 import '../App.css';
 export default function Contact(props) {
   return (
-    <div id='contact' className='p-16 container lg:flex-col justify-between items-center mx-auto px-8 md:px-24 lg:px-24 w-full pb-24 bg-black md:mt-16'>
+    <div id='contact' className='text-slate-200 p-16 container lg:flex-col justify-between items-center mx-auto px-8 md:px-24 lg:px-24 w-full pb-24 bg-black md:mt-16'>
       <h2 className='mt-6 text-3xl font-bold md:text-6xl lg:text-5xl text-center mb-12 underline decoration-pop'> Contact Me </h2>
       <div className='flex justify-evenly  py-8 items-center lg:gap-16 lg:py-24'> 
       {/* bg-pop/[0.8] */}
