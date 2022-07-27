@@ -105,7 +105,7 @@ export default function Projects(props) {
       alt="A library tracker web application to keep track of what books you have or haven't read"
       description="Keep track of the books you have or haven't read, add author names and page count. Delete books from your library. Change your book status from finished reading to not read yet."
       source='https://github.com/Dezzep/library'
-      preview='https://dezzep.github.io/library/'
+      preview='https://books-21fc0.web.app/'
       tools1={javaScript}
       tools2={css}
       tools3={html5}
