@@ -209,7 +209,7 @@ export default function Projects(props) {
           title="Books4Bem"
           image="/library.png"
           alt="A library tracker web application to keep track of what books you have or haven't read"
-          description="Sign up, login and keep track of your books. All of your books are stored on a database so you can view and edit them on any device. Rate your books out of 5 stars. If you can't decide what to read, click the random book button."
+          description="Sign up, login and keep track of your books. All of your books are automatically saved, you can view and edit them on any device. Rate your books out of 5 stars. If you can't decide what to read, click the random book button."
           source="https://github.com/Dezzep/library-rework"
           preview="https://books4bem.herokuapp.com/"
           tools1={nodeJs}
