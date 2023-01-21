@@ -206,12 +206,11 @@ export default function Projects(props) {
       </h2>
       <div className="container grid  grid-cols-1 lg:grid-cols-2  mx-auto px-8 md:px-16 lg:px-24 w-full gap-12 items-center py-6">
         <Card
-          title="Books4Bem"
+          title="Book Tracker"
           image="/library.png"
           alt="A library tracker web application to keep track of what books you have or haven't read"
           description="Sign up, login and keep track of your books. All of your books are automatically saved, you can view and edit them on any device. Rate your books out of 5 stars. If you can't decide what to read, click the random book button."
           source="https://github.com/Dezzep/library-rework"
-          preview="https://books4bem.herokuapp.com/"
           tools1={nodeJs}
           tools2={mongoDb}
           tools4={tailwind}

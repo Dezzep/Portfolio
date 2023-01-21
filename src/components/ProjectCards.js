@@ -25,15 +25,17 @@ export default function Card(props) {
         >
           Source Code{' '}
         </button>
-        <button
-          className="bg-theme ease-in duration-200 p-2 md:p-3 font-semibold hover:scale-105 hover:bg-theme/[.7]"
-          onClick={(e) => {
-            e.preventDefault();
-            window.open(props.preview);
-          }}
-        >
-          Live Preview
-        </button>
+        {props.preview && (
+          <button
+            className="bg-theme ease-in duration-200 p-2 md:p-3 font-semibold hover:scale-105 hover:bg-theme/[.7]"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open(props.preview);
+            }}
+          >
+            Live Preview
+          </button>
+        )}
       </div>
       <div className="flex-col mx-auto">
         <p className="text-center">Technologies Used</p>
